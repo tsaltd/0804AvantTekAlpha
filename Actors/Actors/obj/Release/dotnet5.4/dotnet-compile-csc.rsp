@@ -9,8 +9,8 @@
 -debug:full
 -nostdlib
 -nologo
-"C:\Users\wp710_000\OneDrive\AvantTek.Com\vNext\AvantTekWebsiteAlpha-master\Actors\Actors\obj\Release\dotnet5.4\dotnet-compile.assemblyinfo.cs"
--out:"C:\Users\wp710_000\OneDrive\AvantTek.Com\vNext\AvantTekWebsiteAlpha-master\Actors\Actors\bin\Release\dotnet5.4\Actors.dll"
+"C:\Users\wp710_000\OneDrive\AvantTek.Com\0804Alpha\0804AlphaAvantTek\Actors\Actors\obj\Release\dotnet5.4\dotnet-compile.assemblyinfo.cs"
+-out:"C:\Users\wp710_000\OneDrive\AvantTek.Com\0804Alpha\0804AlphaAvantTek\Actors\Actors\bin\Release\dotnet5.4\Actors.dll"
 -r:"C:\Users\wp710_000\.nuget\packages\Microsoft.CSharp\4.0.1-beta-23516\ref\dotnet5.1\Microsoft.CSharp.dll"
 -r:"C:\Users\wp710_000\.nuget\packages\System.Collections\4.0.11-beta-23516\ref\dotnet5.4\System.Collections.dll"
 -r:"C:\Users\wp710_000\.nuget\packages\System.Diagnostics.Debug\4.0.10\ref\dotnet\System.Diagnostics.Debug.dll"
@@ -32,5 +32,5 @@
 -r:"C:\Users\wp710_000\.nuget\packages\System.Text.Encoding\4.0.0\ref\dotnet\System.Text.Encoding.dll"
 -r:"C:\Users\wp710_000\.nuget\packages\System.Threading\4.0.11-beta-23516\ref\dotnet5.4\System.Threading.dll"
 -r:"C:\Users\wp710_000\.nuget\packages\System.Threading.Tasks\4.0.0\ref\dotnet\System.Threading.Tasks.dll"
-"C:\Users\wp710_000\OneDrive\AvantTek.Com\vNext\AvantTekWebsiteAlpha-master\Actors\Actors\User.cs"
-"C:\Users\wp710_000\OneDrive\AvantTek.Com\vNext\AvantTekWebsiteAlpha-master\Actors\Actors\Properties\AssemblyInfo.cs"
+"C:\Users\wp710_000\OneDrive\AvantTek.Com\0804Alpha\0804AlphaAvantTek\Actors\Actors\User.cs"
+"C:\Users\wp710_000\OneDrive\AvantTek.Com\0804Alpha\0804AlphaAvantTek\Actors\Actors\Properties\AssemblyInfo.cs"

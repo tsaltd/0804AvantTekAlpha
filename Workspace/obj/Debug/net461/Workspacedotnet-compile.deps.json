@@ -17,6 +17,7 @@
     ".NETFramework,Version=v4.6.1": {
       "Workspace/1.0.0": {
         "dependencies": {
+          "System.Web": "4.0.0.0",
           "Microsoft.AspNetCore.Diagnostics": "1.0.0",
           "Microsoft.AspNetCore.Mvc": "1.0.0",
           "Messages": "1.0.0",
@@ -29,6 +30,7 @@
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0",
           "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
+          "Microsoft.Extensions.WebEncoders": "1.0.0",
           "Microsoft.Extensions.Configuration.Json": "1.0.0",
           "Microsoft.Extensions.Logging": "1.0.0",
           "Microsoft.Extensions.Logging.Console": "1.0.0",
@@ -1203,6 +1205,11 @@
           "Messages.dll": {}
         }
       },
+      "System.Web/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.6.1/System.Web.dll": {}
+        }
+      },
       "mscorlib/4.0.0.0": {
         "compile": {
           ".NETFramework/v4.6.1/mscorlib.dll": {}
@@ -1277,6 +1284,7 @@
     ".NETFramework,Version=v4.6.1/": {
       "Workspace/1.0.0": {
         "dependencies": {
+          "System.Web": "4.0.0.0",
           "Microsoft.AspNetCore.Diagnostics": "1.0.0",
           "Microsoft.AspNetCore.Mvc": "1.0.0",
           "Messages": "1.0.0",
@@ -1289,6 +1297,7 @@
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0",
           "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
+          "Microsoft.Extensions.WebEncoders": "1.0.0",
           "Microsoft.Extensions.Configuration.Json": "1.0.0",
           "Microsoft.Extensions.Logging": "1.0.0",
           "Microsoft.Extensions.Logging.Console": "1.0.0",
@@ -2369,6 +2378,7 @@
           "Messages.dll": {}
         }
       },
+      "System.Web/4.0.0.0": {},
       "mscorlib/4.0.0.0": {},
       "System/4.0.0.0": {},
       "System.Core/4.0.0.0": {},
@@ -3053,6 +3063,11 @@
     },
     "Messages/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Web/4.0.0.0": {
+      "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
     },

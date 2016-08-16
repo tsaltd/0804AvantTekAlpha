@@ -6,9 +6,9 @@ function emailController($scope, $http) {
 
     var vm = this;
 
-    var onSendComplete = function(response) {
+    var onSendComplete = function (response) {
         $scope.user = response.data;
-    }
+    };
 
     vm.SendGridAlphaInterested = function(who) {
             $http.get("http://www.cuisinecuration.com/api/sendgrid/send", { params: { "who": who } })

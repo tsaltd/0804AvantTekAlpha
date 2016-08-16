@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETPlatform,Version=v5.4/",
-    "signature": "ea964947be30bd3f8fa9c74cbaddbbb4c3a7731b"
+    "signature": "358a008db59c0f122aece052fe4f6db3e908411c"
   },
   "compilationOptions": {},
   "targets": {
@@ -14,7 +14,7 @@
           "System.Linq": "4.0.1-beta-23516",
           "System.Runtime": "4.0.21-beta-23516",
           "System.Threading": "4.0.11-beta-23516",
-          "System.ComponentModel.Annotations": "4.0.11-beta-23516"
+          "System.ComponentModel.Annotations": "4.0.0"
         },
         "runtime": {
           "Messages.dll": {}
@@ -48,30 +48,9 @@
           "System.Runtime": "4.0.21-beta-23516"
         }
       },
-      "System.ComponentModel/4.0.0": {
+      "System.ComponentModel.Annotations/4.0.0": {
         "dependencies": {
           "System.Runtime": "4.0.21-beta-23516"
-        },
-        "runtime": {
-          "lib/dotnet/System.ComponentModel.dll": {}
-        }
-      },
-      "System.ComponentModel.Annotations/4.0.11-beta-23516": {
-        "dependencies": {
-          "System.Collections": "4.0.11-beta-23516",
-          "System.ComponentModel": "4.0.0",
-          "System.Globalization": "4.0.10",
-          "System.Linq": "4.0.1-beta-23516",
-          "System.Reflection": "4.0.10",
-          "System.Reflection.Extensions": "4.0.0",
-          "System.Resources.ResourceManager": "4.0.0",
-          "System.Runtime": "4.0.21-beta-23516",
-          "System.Runtime.Extensions": "4.0.10",
-          "System.Text.RegularExpressions": "4.0.10",
-          "System.Threading": "4.0.11-beta-23516"
-        },
-        "runtime": {
-          "lib/dotnet5.4/System.ComponentModel.Annotations.dll": {}
         }
       },
       "System.Diagnostics.Debug/4.0.10": {
@@ -184,19 +163,6 @@
           "System.Runtime": "4.0.21-beta-23516"
         }
       },
-      "System.Text.RegularExpressions/4.0.10": {
-        "dependencies": {
-          "System.Collections": "4.0.11-beta-23516",
-          "System.Globalization": "4.0.10",
-          "System.Resources.ResourceManager": "4.0.0",
-          "System.Runtime": "4.0.21-beta-23516",
-          "System.Runtime.Extensions": "4.0.10",
-          "System.Threading": "4.0.11-beta-23516"
-        },
-        "runtime": {
-          "lib/dotnet/System.Text.RegularExpressions.dll": {}
-        }
-      },
       "System.Threading/4.0.11-beta-23516": {
         "dependencies": {
           "System.Runtime": "4.0.21-beta-23516",
@@ -226,15 +192,10 @@
       "serviceable": true,
       "sha512": "sha512-FSd5zsGfmG2pidC3CVizQPNGTK1Q3A2HEuRqwUPLU/AArjELLC5p4l6XIAlJ9ZBPdbp6V8vFQAxUHzkFfyVkYA=="
     },
-    "System.ComponentModel/4.0.0": {
+    "System.ComponentModel.Annotations/4.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-BzpLdSi++ld7rJLOOt5f/G9GxujP202bBgKORsHcGV36rLB0mfSA2h8chTMoBzFhgN7TE14TmJ2J7Q1RyNCTAw=="
-    },
-    "System.ComponentModel.Annotations/4.0.11-beta-23516": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-VAt5IT69A0lBwY9j8FvyyiB0FLPAwxq/qQ+VZNcXS+MBroSDg/gc/4/nrJKdFGW+6HnAlm9II7TbJ7Es5UlBPw=="
+      "sha512": "sha512-yZp8iRh91/8lM6F/Jn/fe2Kj9Yrl2viFA4rzbbOMxA1dZOK7vBfOQRxLr0nRatjHf5LtE181IOW9AFd5OdTT5Q=="
     },
     "System.Diagnostics.Debug/4.0.10": {
       "type": "package",
@@ -320,11 +281,6 @@
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-AMxFNOXpA6Ab8swULbXuJmoT2K5w6TnV3ObF5wsmEcIHQUJghoZtDVfVHb08O2wW15mOSI1i9Wg0Dx0pY13o8g=="
-    },
-    "System.Text.RegularExpressions/4.0.10": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-0vDuHXJePpfMCecWBNOabOKCvzfTbFMNcGgklt3l5+RqHV5SzmF7RUVpuet8V0rJX30ROlL66xdehw2Rdsn2DA=="
     },
     "System.Threading/4.0.11-beta-23516": {
       "type": "package",

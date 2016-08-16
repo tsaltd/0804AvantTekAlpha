@@ -1,5 +1,5 @@
---temp-output:C:\Users\wp710_000\OneDrive\AvantTek.Com\vNext\AvantTekWebsiteAlpha-master\Actors\Actors\obj\Debug\dotnet5.4\
---out:C:\Users\wp710_000\OneDrive\AvantTek.Com\vNext\AvantTekWebsiteAlpha-master\Actors\Actors\bin\Debug\dotnet5.4\Actors.dll
+--temp-output:C:\Users\wp710_000\OneDrive\AvantTek.Com\0804Alpha\0804AlphaAvantTek\Actors\Actors\obj\Debug\dotnet5.4\
+--out:C:\Users\wp710_000\OneDrive\AvantTek.Com\0804Alpha\0804AlphaAvantTek\Actors\Actors\bin\Debug\dotnet5.4\Actors.dll
 --define:DEBUG
 --define:TRACE
 --define:DOTNET5_4
@@ -34,5 +34,5 @@
 --reference:C:\Users\wp710_000\.nuget\packages\System.Text.Encoding\4.0.0\ref\dotnet\System.Text.Encoding.dll
 --reference:C:\Users\wp710_000\.nuget\packages\System.Threading\4.0.11-beta-23516\ref\dotnet5.4\System.Threading.dll
 --reference:C:\Users\wp710_000\.nuget\packages\System.Threading.Tasks\4.0.0\ref\dotnet\System.Threading.Tasks.dll
-C:\Users\wp710_000\OneDrive\AvantTek.Com\vNext\AvantTekWebsiteAlpha-master\Actors\Actors\User.cs
-C:\Users\wp710_000\OneDrive\AvantTek.Com\vNext\AvantTekWebsiteAlpha-master\Actors\Actors\Properties\AssemblyInfo.cs
+C:\Users\wp710_000\OneDrive\AvantTek.Com\0804Alpha\0804AlphaAvantTek\Actors\Actors\User.cs
+C:\Users\wp710_000\OneDrive\AvantTek.Com\0804Alpha\0804AlphaAvantTek\Actors\Actors\Properties\AssemblyInfo.cs

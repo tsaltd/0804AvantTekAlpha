@@ -3,7 +3,7 @@
   "version": 2,
   "targets": {
     ".NETFramework,Version=v4.5.1": {
-      "System.ComponentModel.Annotations/4.0.11-beta-23516": {
+      "System.ComponentModel.Annotations/4.0.0": {
         "type": "package",
         "compile": {
           "ref/net45/_._": {}
@@ -50,38 +50,13 @@
           "ref/dotnet5.4/System.Collections.dll": {}
         }
       },
-      "System.ComponentModel/4.0.0": {
+      "System.ComponentModel.Annotations/4.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime": "4.0.20"
+          "System.Runtime": "4.0.0"
         },
         "compile": {
-          "ref/dotnet/System.ComponentModel.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet/System.ComponentModel.dll": {}
-        }
-      },
-      "System.ComponentModel.Annotations/4.0.11-beta-23516": {
-        "type": "package",
-        "dependencies": {
-          "System.Collections": "4.0.10",
-          "System.ComponentModel": "4.0.0",
-          "System.Globalization": "4.0.10",
-          "System.Linq": "4.0.0",
-          "System.Reflection": "4.0.10",
-          "System.Reflection.Extensions": "4.0.0",
-          "System.Resources.ResourceManager": "4.0.0",
-          "System.Runtime": "4.0.20",
-          "System.Runtime.Extensions": "4.0.10",
-          "System.Text.RegularExpressions": "4.0.10",
-          "System.Threading": "4.0.10"
-        },
-        "compile": {
-          "ref/dotnet5.4/System.ComponentModel.Annotations.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/System.ComponentModel.Annotations.dll": {}
+          "ref/dotnet/System.ComponentModel.Annotations.dll": {}
         }
       },
       "System.Diagnostics.Debug/4.0.10": {
@@ -263,23 +238,6 @@
           "ref/dotnet/System.Text.Encoding.dll": {}
         }
       },
-      "System.Text.RegularExpressions/4.0.10": {
-        "type": "package",
-        "dependencies": {
-          "System.Collections": "4.0.10",
-          "System.Globalization": "4.0.10",
-          "System.Resources.ResourceManager": "4.0.0",
-          "System.Runtime": "4.0.20",
-          "System.Runtime.Extensions": "4.0.10",
-          "System.Threading": "4.0.10"
-        },
-        "compile": {
-          "ref/dotnet/System.Text.RegularExpressions.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet/System.Text.RegularExpressions.dll": {}
-        }
-      },
       "System.Threading/4.0.11-beta-23516": {
         "type": "package",
         "dependencies": {
@@ -412,77 +370,33 @@
         "runtimes/win8-aot/lib/netcore50/System.Collections.dll"
       ]
     },
-    "System.ComponentModel/4.0.0": {
-      "sha512": "BzpLdSi++ld7rJLOOt5f/G9GxujP202bBgKORsHcGV36rLB0mfSA2h8chTMoBzFhgN7TE14TmJ2J7Q1RyNCTAw==",
+    "System.ComponentModel.Annotations/4.0.0": {
+      "sha512": "yZp8iRh91/8lM6F/Jn/fe2Kj9Yrl2viFA4rzbbOMxA1dZOK7vBfOQRxLr0nRatjHf5LtE181IOW9AFd5OdTT5Q==",
       "type": "package",
-      "path": "System.ComponentModel/4.0.0",
+      "path": "System.ComponentModel.Annotations/4.0.0",
       "files": [
-        "System.ComponentModel.4.0.0.nupkg.sha512",
-        "System.ComponentModel.nuspec",
-        "lib/dotnet/System.ComponentModel.dll",
-        "lib/net45/_._",
-        "lib/netcore50/System.ComponentModel.dll",
-        "lib/win8/_._",
-        "lib/wp80/_._",
-        "lib/wpa81/_._",
-        "ref/dotnet/System.ComponentModel.dll",
-        "ref/dotnet/System.ComponentModel.xml",
-        "ref/dotnet/de/System.ComponentModel.xml",
-        "ref/dotnet/es/System.ComponentModel.xml",
-        "ref/dotnet/fr/System.ComponentModel.xml",
-        "ref/dotnet/it/System.ComponentModel.xml",
-        "ref/dotnet/ja/System.ComponentModel.xml",
-        "ref/dotnet/ko/System.ComponentModel.xml",
-        "ref/dotnet/ru/System.ComponentModel.xml",
-        "ref/dotnet/zh-hans/System.ComponentModel.xml",
-        "ref/dotnet/zh-hant/System.ComponentModel.xml",
-        "ref/net45/_._",
-        "ref/netcore50/System.ComponentModel.dll",
-        "ref/netcore50/System.ComponentModel.xml",
-        "ref/win8/_._",
-        "ref/wp80/_._",
-        "ref/wpa81/_._"
-      ]
-    },
-    "System.ComponentModel.Annotations/4.0.11-beta-23516": {
-      "sha512": "VAt5IT69A0lBwY9j8FvyyiB0FLPAwxq/qQ+VZNcXS+MBroSDg/gc/4/nrJKdFGW+6HnAlm9II7TbJ7Es5UlBPw==",
-      "type": "package",
-      "path": "System.ComponentModel.Annotations/4.0.11-beta-23516",
-      "files": [
-        "System.ComponentModel.Annotations.4.0.11-beta-23516.nupkg.sha512",
+        "License.rtf",
+        "System.ComponentModel.Annotations.4.0.0.nupkg.sha512",
         "System.ComponentModel.Annotations.nuspec",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
-        "lib/dotnet5.4/System.ComponentModel.Annotations.dll",
         "lib/net45/_._",
-        "lib/netcore50/System.ComponentModel.Annotations.dll",
         "lib/win8/_._",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
-        "ref/dotnet5.2/System.ComponentModel.Annotations.dll",
-        "ref/dotnet5.2/System.ComponentModel.Annotations.xml",
-        "ref/dotnet5.2/de/System.ComponentModel.Annotations.xml",
-        "ref/dotnet5.2/es/System.ComponentModel.Annotations.xml",
-        "ref/dotnet5.2/fr/System.ComponentModel.Annotations.xml",
-        "ref/dotnet5.2/it/System.ComponentModel.Annotations.xml",
-        "ref/dotnet5.2/ja/System.ComponentModel.Annotations.xml",
-        "ref/dotnet5.2/ko/System.ComponentModel.Annotations.xml",
-        "ref/dotnet5.2/ru/System.ComponentModel.Annotations.xml",
-        "ref/dotnet5.2/zh-hans/System.ComponentModel.Annotations.xml",
-        "ref/dotnet5.2/zh-hant/System.ComponentModel.Annotations.xml",
-        "ref/dotnet5.4/System.ComponentModel.Annotations.dll",
-        "ref/dotnet5.4/System.ComponentModel.Annotations.xml",
-        "ref/dotnet5.4/de/System.ComponentModel.Annotations.xml",
-        "ref/dotnet5.4/es/System.ComponentModel.Annotations.xml",
-        "ref/dotnet5.4/fr/System.ComponentModel.Annotations.xml",
-        "ref/dotnet5.4/it/System.ComponentModel.Annotations.xml",
-        "ref/dotnet5.4/ja/System.ComponentModel.Annotations.xml",
-        "ref/dotnet5.4/ko/System.ComponentModel.Annotations.xml",
-        "ref/dotnet5.4/ru/System.ComponentModel.Annotations.xml",
-        "ref/dotnet5.4/zh-hans/System.ComponentModel.Annotations.xml",
-        "ref/dotnet5.4/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/dotnet/System.ComponentModel.Annotations.dll",
+        "ref/dotnet/System.ComponentModel.Annotations.xml",
+        "ref/dotnet/de/System.ComponentModel.Annotations.xml",
+        "ref/dotnet/es/System.ComponentModel.Annotations.xml",
+        "ref/dotnet/fr/System.ComponentModel.Annotations.xml",
+        "ref/dotnet/it/System.ComponentModel.Annotations.xml",
+        "ref/dotnet/ja/System.ComponentModel.Annotations.xml",
+        "ref/dotnet/ko/System.ComponentModel.Annotations.xml",
+        "ref/dotnet/ru/System.ComponentModel.Annotations.xml",
+        "ref/dotnet/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/dotnet/zh-hant/System.ComponentModel.Annotations.xml",
         "ref/net45/_._",
         "ref/netcore50/System.ComponentModel.Annotations.dll",
         "ref/netcore50/System.ComponentModel.Annotations.xml",
@@ -1166,37 +1080,6 @@
         "ref/xamarinmac20/_._"
       ]
     },
-    "System.Text.RegularExpressions/4.0.10": {
-      "sha512": "0vDuHXJePpfMCecWBNOabOKCvzfTbFMNcGgklt3l5+RqHV5SzmF7RUVpuet8V0rJX30ROlL66xdehw2Rdsn2DA==",
-      "type": "package",
-      "path": "System.Text.RegularExpressions/4.0.10",
-      "files": [
-        "System.Text.RegularExpressions.4.0.10.nupkg.sha512",
-        "System.Text.RegularExpressions.nuspec",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/dotnet/System.Text.RegularExpressions.dll",
-        "lib/net46/_._",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/dotnet/System.Text.RegularExpressions.dll",
-        "ref/dotnet/System.Text.RegularExpressions.xml",
-        "ref/dotnet/de/System.Text.RegularExpressions.xml",
-        "ref/dotnet/es/System.Text.RegularExpressions.xml",
-        "ref/dotnet/fr/System.Text.RegularExpressions.xml",
-        "ref/dotnet/it/System.Text.RegularExpressions.xml",
-        "ref/dotnet/ja/System.Text.RegularExpressions.xml",
-        "ref/dotnet/ko/System.Text.RegularExpressions.xml",
-        "ref/dotnet/ru/System.Text.RegularExpressions.xml",
-        "ref/dotnet/zh-hans/System.Text.RegularExpressions.xml",
-        "ref/dotnet/zh-hant/System.Text.RegularExpressions.xml",
-        "ref/net46/_._",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
-      ]
-    },
     "System.Threading/4.0.11-beta-23516": {
       "sha512": "vZNXMOIwejg9jS/AkkCs43BIDrzONbT43yhU7X2217Ypi9EZN5X16DwtqBD7eMjDBsA23IRZxuugzUnV8icaxQ==",
       "type": "package",
@@ -1307,7 +1190,7 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "System.ComponentModel.Annotations >= 4.0.11-beta-23516"
+      "System.ComponentModel.Annotations >= 4.0.0"
     ],
     ".NETFramework,Version=v4.5.1": [
       "System.ComponentModel.DataAnnotations >= 4.0.0"

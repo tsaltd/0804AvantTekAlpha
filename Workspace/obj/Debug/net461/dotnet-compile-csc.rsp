@@ -8,8 +8,8 @@
 -debug:full
 -nostdlib
 -nologo
-"C:\Users\wp710_000\OneDrive\AvantTek.Com\vNext\AvantTekWebsiteAlpha-master\Workspace\obj\Debug\net461\dotnet-compile.assemblyinfo.cs"
--out:"C:\Users\wp710_000\OneDrive\AvantTek.Com\vNext\AvantTekWebsiteAlpha-master\Workspace\bin\Debug\net461\Workspace.exe"
+"C:\Users\wp710_000\OneDrive\AvantTek.Com\0804Alpha\0804AlphaAvantTek\Workspace\obj\Debug\net461\dotnet-compile.assemblyinfo.cs"
+-out:"C:\Users\wp710_000\OneDrive\AvantTek.Com\0804Alpha\0804AlphaAvantTek\Workspace\bin\Debug\net461\Workspace.exe"
 -r:"C:\Users\wp710_000\.nuget\packages\Microsoft.AspNetCore.Antiforgery\1.0.0\lib\net451\Microsoft.AspNetCore.Antiforgery.dll"
 -r:"C:\Users\wp710_000\.nuget\packages\Microsoft.AspNetCore.Authorization\1.0.0\lib\net451\Microsoft.AspNetCore.Authorization.dll"
 -r:"C:\Users\wp710_000\.nuget\packages\Microsoft.AspNetCore.Cors\1.0.0\lib\net451\Microsoft.AspNetCore.Cors.dll"
@@ -149,8 +149,9 @@
 -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Threading.Tasks.Parallel.dll"
 -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Xml.ReaderWriter.dll"
 -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Xml.XDocument.dll"
--r:"C:\Users\wp710_000\OneDrive\AvantTek.Com\vNext\AvantTekWebsiteAlpha-master\Actors\Actors\bin\Debug\net451\Actors.dll"
--r:"C:\Users\wp710_000\OneDrive\AvantTek.Com\vNext\AvantTekWebsiteAlpha-master\Messages\Messages\bin\Debug\net451\Messages.dll"
+-r:"C:\Users\wp710_000\OneDrive\AvantTek.Com\0804Alpha\0804AlphaAvantTek\Actors\Actors\bin\Debug\net451\Actors.dll"
+-r:"C:\Users\wp710_000\OneDrive\AvantTek.Com\0804Alpha\0804AlphaAvantTek\Messages\Messages\bin\Debug\net451\Messages.dll"
+-r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Web.dll"
 -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\mscorlib.dll"
 -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.dll"
 -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Core.dll"
@@ -165,11 +166,12 @@
 -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.ServiceModel.dll"
 -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Numerics.dll"
 -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Runtime.Serialization.dll"
--resource:"C:\Users\wp710_000\OneDrive\AvantTek.Com\vNext\AvantTekWebsiteAlpha-master\Workspace\obj\Debug\net461\Workspacedotnet-compile.deps.json",Workspace.deps.json
-"C:\Users\wp710_000\OneDrive\AvantTek.Com\vNext\AvantTekWebsiteAlpha-master\Workspace\Program.cs"
-"C:\Users\wp710_000\OneDrive\AvantTek.Com\vNext\AvantTekWebsiteAlpha-master\Workspace\Startup.cs"
-"C:\Users\wp710_000\OneDrive\AvantTek.Com\vNext\AvantTekWebsiteAlpha-master\Workspace\Controllers\HomeController.cs"
-"C:\Users\wp710_000\OneDrive\AvantTek.Com\vNext\AvantTekWebsiteAlpha-master\Workspace\Controllers\WorkspaceController.cs"
-"C:\Users\wp710_000\OneDrive\AvantTek.Com\vNext\AvantTekWebsiteAlpha-master\Workspace\Controllers\API\MessageController.cs"
-"C:\Users\wp710_000\OneDrive\AvantTek.Com\vNext\AvantTekWebsiteAlpha-master\Workspace\Models\Utility.cs"
-"C:\Users\wp710_000\OneDrive\AvantTek.Com\vNext\AvantTekWebsiteAlpha-master\Workspace\ViewModels\SendGridMessage.cs"
+-resource:"C:\Users\wp710_000\OneDrive\AvantTek.Com\0804Alpha\0804AlphaAvantTek\Workspace\obj\Debug\net461\Workspacedotnet-compile.deps.json",Workspace.deps.json
+"C:\Users\wp710_000\OneDrive\AvantTek.Com\0804Alpha\0804AlphaAvantTek\Workspace\Program.cs"
+"C:\Users\wp710_000\OneDrive\AvantTek.Com\0804Alpha\0804AlphaAvantTek\Workspace\Startup.cs"
+"C:\Users\wp710_000\OneDrive\AvantTek.Com\0804Alpha\0804AlphaAvantTek\Workspace\Controllers\HomeController.cs"
+"C:\Users\wp710_000\OneDrive\AvantTek.Com\0804Alpha\0804AlphaAvantTek\Workspace\Controllers\WorkspaceController.cs"
+"C:\Users\wp710_000\OneDrive\AvantTek.Com\0804Alpha\0804AlphaAvantTek\Workspace\Controllers\API\MessageController.cs"
+"C:\Users\wp710_000\OneDrive\AvantTek.Com\0804Alpha\0804AlphaAvantTek\Workspace\Models\Utility.cs"
+"C:\Users\wp710_000\OneDrive\AvantTek.Com\0804Alpha\0804AlphaAvantTek\Workspace\ViewModels\SendGridMessage.cs"
+"C:\Users\wp710_000\OneDrive\AvantTek.Com\0804Alpha\0804AlphaAvantTek\Workspace\ViewModels\vmHomeIndex.cs"
