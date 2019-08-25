@@ -10,10 +10,11 @@ function emailController($scope, $http) {
         $scope.user = response.data;
     };
 
-    vm.SendGridAlphaInterested = function(who) {
-            $http.get("http://www.cuisinecuration.com/api/sendgrid/send", { params: { "who": who } })
-                .then(onSendComplete);
-        }
+    vm.SendGridAlphaInterested = function (who) {
+        $http.get("http://www.cuisinecuration.com/api/sendgrid/send", { params: { "who": who } })
+            .then(onSendComplete);
+    }
+    //thisis a test
 
         vm.alphaEmail = {
             From: "stevem@avanttek.com",
